@@ -5,7 +5,9 @@
 
 <p align=center>A aplicação original acessa o back-end para realizar validações porem como essa é apenas um demonstrativo não possui tais validações
 
-<img src="./public/icon_receipt.svg">
+<p align=center>
+
+<img src="./public/wallpaper.png">
 
 <h5 align=center>
 
@@ -41,10 +43,10 @@
 
 ## 📥 Execute esse projeto no seu computador
 
-- Clonar Repositório: `git clone`
+- Clonar Repositório: `git clone https://github.com/tiagosantosp/projetoDoai.git`
 - Instalar dependências: `yarn`
 
-- Rodar Aplicação: `yarn run dev`
+- Rodar Aplicação: `yarn dev`
 
 
 ## 📕 Licença
