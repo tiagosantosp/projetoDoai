@@ -17,6 +17,7 @@ jobs:
         run: |
           npm ci
           npm install -g npm
+          npm i fsevents@latest -f --save-optional
           npm run build
       - name: Deploy to doai
         uses: peaceiris/actions-gh-pages@v3
