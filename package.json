@@ -2,7 +2,7 @@
   "name": "front-doai",
   "private": true,
   "version": "1.0.0",
-  "homepage": "github-page/",
+  "homepage": "projetodoai/",
   "type": "module",
   "scripts": {
     "dev": "vite",
