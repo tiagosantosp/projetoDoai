@@ -34,6 +34,7 @@
     "vite": "^3.0.0"
   },
   "optionalDependencies": {
+    "esbuild-android-arm64": "^0.15.6",
     "fsevents": "~2.3.2"
   }
 }
