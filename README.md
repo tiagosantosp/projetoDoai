@@ -43,7 +43,7 @@
 
 ## 📥 Execute esse projeto no seu computador
 
-- Clonar Repositório: `git clone https://github.com/tiagosantosp/projetoDoai.git`
+- Clonar Repositório: `git clone https://github.com/tiagosantosp/projetoDoai.git `
 - Instalar dependências: `yarn`
 
 - Rodar Aplicação: `yarn dev`
