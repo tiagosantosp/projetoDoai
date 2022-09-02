@@ -2,7 +2,7 @@
   "name": "front-doai",
   "private": true,
   "version": "1.0.0",
-  "homepage": "projetodoai/",
+  "homepage": "projetoDoai/",
   "type": "module",
   "scripts": {
     "dev": "vite",
