@@ -13,12 +13,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '14.x'
-      - name: 🚚 Upgrade NPM
-          run: npm install -g npm
-      - name: 💥 Install Dependencies
-          run: npm ci
       - name: Build web-app
-          run: npm run build
+        run: |
+          npm ci
+          npm install -g npm
+          npm run build
       - name: Deploy to doai
         uses: peaceiris/actions-gh-pages@v3
         with:
