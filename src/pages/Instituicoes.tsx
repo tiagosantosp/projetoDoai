@@ -6,7 +6,7 @@ import axios from "axios";
 import { Card } from "../components/Card";
 
 export const Instituicoes = () => {
-  const [paginaSelecionada, setPaginaSelecionada] = useOutletContext();
+  const [paginaSelecionada, setPaginaSelecionada] = useOutletContext<any>();
   const [nova, setNova] = useState("")
   const [municipios, setMunicipios] = useState([])
   const selectElement = useRef(null)

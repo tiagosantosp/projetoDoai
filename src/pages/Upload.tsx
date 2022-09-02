@@ -13,7 +13,7 @@ export default function Upload() {
   const [isfotosCarregadas, setIsFotosCarregadas] = useState(false)
   const [loading, setLoading] = useState(false)
   const [file, setFile] = useState(null)
-  const [paginaSelecionada, setPaginaSelecionada] = useOutletContext();
+  const [paginaSelecionada, setPaginaSelecionada] = useOutletContext<any>();
   const user = useSelector(selectUser);
   const toast = useToast();
   const navigate = useNavigate();
