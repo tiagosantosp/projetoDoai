@@ -5,6 +5,8 @@
 
 <p align=center>A aplicação original acessa o back-end para realizar validações porem como essa é apenas um demonstrativo não possui tais validações
 
+<img src="./public/icon_receipt.svg">
+
 <h5 align=center>
 
 🎨 Layout por Adriana Ferreira Lima |
