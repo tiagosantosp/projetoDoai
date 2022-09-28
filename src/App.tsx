@@ -12,7 +12,7 @@ import Historico from "./pages/Historico";
 function App() {
 
   return (
-     <HashRouter>
+     <BrowserRouter>
        <Routes>
          <Route path="/" element={<Login />} />
          <Route path="/register" element={<Cadastro />} />
@@ -24,7 +24,7 @@ function App() {
            <Route path="historico"  element={<Historico/>}/>
          </Route>
        </Routes>
-     </HashRouter>
+     </BrowserRouter>
   )
 }
 
